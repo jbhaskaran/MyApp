@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "AuthenticationService", "AuthenticationService\AuthenticationService.njsproj", "{7FCAA2BD-4FDF-4131-B905-47B6CCE0551D}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "WebApp", "WebApp\WebApp.njsproj", "{1D060D0C-103A-4F5F-98D3-56F02C12A851}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FCAA2BD-4FDF-4131-B905-47B6CCE0551D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FCAA2BD-4FDF-4131-B905-47B6CCE0551D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FCAA2BD-4FDF-4131-B905-47B6CCE0551D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FCAA2BD-4FDF-4131-B905-47B6CCE0551D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D060D0C-103A-4F5F-98D3-56F02C12A851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D060D0C-103A-4F5F-98D3-56F02C12A851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D060D0C-103A-4F5F-98D3-56F02C12A851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D060D0C-103A-4F5F-98D3-56F02C12A851}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
