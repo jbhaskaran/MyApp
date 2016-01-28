@@ -33,6 +33,13 @@
     <Compile Include="app.js" />
     <Compile Include="public\scripts\app.js" />
     <Compile Include="bin\www" />
+    <Compile Include="public\scripts\controllers\indexController.js" />
+    <Compile Include="public\scripts\lib\enc-base64.js" />
+    <Compile Include="public\scripts\lib\hmac-sha1.js" />
+    <Compile Include="public\scripts\lib\hmac-sha256.js" />
+    <Compile Include="public\scripts\lib\sha1.js" />
+    <Compile Include="public\scripts\lib\sha256.js" />
+    <Compile Include="public\scripts\services\authenticationService.js" />
     <Content Include="package.json" />
     <Content Include="public\index.html" />
     <Content Include="README.md" />
@@ -44,6 +51,7 @@
     <Folder Include="public\content\" />
     <Folder Include="public\content\css\" />
     <Folder Include="public\scripts\controllers\" />
+    <Folder Include="public\scripts\lib\" />
     <Folder Include="public\scripts\services\" />
     <Folder Include="public\views\" />
     <Folder Include="public\scripts\" />
