@@ -13,7 +13,7 @@ function authenticationServiceFactory() {
         hmac.write(hash);
         // you can't read from the stream until you call end()
         hmac.end();
-        // read out hmac digest
+        // read out hmac digest43
         var _hash = hmac.read(); 
         return _hash;
     }

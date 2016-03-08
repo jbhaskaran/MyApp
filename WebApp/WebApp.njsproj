@@ -31,30 +31,33 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
-    <Compile Include="public\scripts\app.js" />
+    <Compile Include="app\js\app.js" />
     <Compile Include="bin\www" />
-    <Compile Include="public\scripts\controllers\indexController.js" />
-    <Compile Include="public\scripts\lib\enc-base64.js" />
-    <Compile Include="public\scripts\lib\hmac-sha1.js" />
-    <Compile Include="public\scripts\lib\hmac-sha256.js" />
-    <Compile Include="public\scripts\lib\sha1.js" />
-    <Compile Include="public\scripts\lib\sha256.js" />
-    <Compile Include="public\scripts\services\authenticationService.js" />
+    <Compile Include="app\js\controllers\indexController.js" />
+    <Compile Include="app\js\lib\enc-base64.js" />
+    <Compile Include="app\js\lib\hmac-sha1.js" />
+    <Compile Include="app\js\lib\hmac-sha256.js" />
+    <Compile Include="app\js\services\authenticationService.js" />
+    <Compile Include="test\karma.conf.js" />
+    <Compile Include="test\unit\linkedListSpec.js" />
     <Content Include="package.json" />
-    <Content Include="public\index.html" />
+    <Content Include="app\index.html" />
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\js\datastructures\" />
     <Folder Include="bin\" />
-    <Folder Include="public\" />
-    <Folder Include="public\content\images\" />
-    <Folder Include="public\content\" />
-    <Folder Include="public\content\css\" />
-    <Folder Include="public\scripts\controllers\" />
-    <Folder Include="public\scripts\lib\" />
-    <Folder Include="public\scripts\services\" />
-    <Folder Include="public\views\" />
-    <Folder Include="public\scripts\" />
+    <Folder Include="app\" />
+    <Folder Include="app\content\images\" />
+    <Folder Include="app\content\" />
+    <Folder Include="app\content\css\" />
+    <Folder Include="app\js\controllers\" />
+    <Folder Include="app\js\lib\" />
+    <Folder Include="app\js\services\" />
+    <Folder Include="app\views\" />
+    <Folder Include="app\js\" />
+    <Folder Include="test\" />
+    <Folder Include="test\unit\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />

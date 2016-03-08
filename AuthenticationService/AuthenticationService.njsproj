@@ -40,7 +40,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
-    <Folder Include="models\" />
     <Folder Include="services\" />
     <Folder Include="routes\" />
   </ItemGroup>
