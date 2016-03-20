@@ -1,7 +1,7 @@
 ﻿(function () {
     'use strict';
     describe('test suite for linked list', function () {
-        debugger;
+        //debugger;
         var list;
         beforeEach(function () {
             list = new linkedList();
