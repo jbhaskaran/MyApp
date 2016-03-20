@@ -46,6 +46,7 @@
     <Compile Include="app\js\controllers\loginController.js" />
     <Compile Include="app\js\datastructures\linkedList.js" />
     <Compile Include="app\js\datastructures\parseQueryString.js" />
+    <Compile Include="app\js\datastructures\setList.js" />
     <Compile Include="app\lib\enc-base64.js" />
     <Compile Include="app\lib\hmac-sha1.js" />
     <Compile Include="app\lib\hmac-sha256.js" />
@@ -56,6 +57,7 @@
     <Compile Include="test\unit\findFooInUrlSpec.js" />
     <Compile Include="test\unit\linkedListSpec.js" />
     <Compile Include="test\unit\loginControllerSpec.js" />
+    <Compile Include="test\unit\setListSpec.js" />
     <Content Include="app\bower.json" />
     <Content Include="app\bower_components\angular-mocks\.bower.json" />
     <Content Include="app\bower_components\angular-mocks\bower.json" />
