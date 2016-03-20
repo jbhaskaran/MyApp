@@ -1,0 +1,9 @@
+{
+  "name": "mywebapp",
+  "description": "My Test Web Application",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true
+}
