@@ -34,12 +34,18 @@
     <Compile Include="routes\authenticate.js" />
     <Compile Include="bin\www" />
     <Compile Include="routes\index.js" />
+    <Compile Include="routes\movie.js" />
+    <Compile Include="routes\product.js" />
     <Compile Include="services\authenticationServiceFactory.js" />
+    <Compile Include="services\movieService.js" />
+    <Compile Include="services\productService.js" />
+    <Content Include="data\movies.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
+    <Folder Include="data\" />
     <Folder Include="services\" />
     <Folder Include="routes\" />
   </ItemGroup>

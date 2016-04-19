@@ -12,17 +12,16 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1d060d0c-103a-4f5f-98d3-56f02c12a851</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>bin\www</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
-    <ProjectView>ProjectFiles</ProjectView>
+    <ProjectView>ShowAllFiles</ProjectView>
     <NodejsPort>1337</NodejsPort>
-    <StartWebBrowser>true</StartWebBrowser>
+    <StartWebBrowser>True</StartWebBrowser>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -46,7 +45,12 @@
     <Compile Include="app\js\controllers\loginController.js" />
     <Compile Include="app\js\datastructures\linkedList.js" />
     <Compile Include="app\js\datastructures\parseQueryString.js" />
+    <Compile Include="app\js\datastructures\practice.js" />
     <Compile Include="app\js\datastructures\setList.js" />
+    <Compile Include="app\js\dist\rx.core.js" />
+    <Compile Include="app\js\test\generators.js" />
+    <Compile Include="app\js\test\promisesvsrx.js" />
+    <Compile Include="app\js\test\prototype.js" />
     <Compile Include="app\lib\enc-base64.js" />
     <Compile Include="app\lib\hmac-sha1.js" />
     <Compile Include="app\lib\hmac-sha256.js" />
@@ -57,6 +61,7 @@
     <Compile Include="test\unit\findFooInUrlSpec.js" />
     <Compile Include="test\unit\linkedListSpec.js" />
     <Compile Include="test\unit\loginControllerSpec.js" />
+    <Compile Include="test\unit\practiceSpec.js" />
     <Compile Include="test\unit\setListSpec.js" />
     <Content Include="app\bower.json" />
     <Content Include="app\bower_components\angular-mocks\.bower.json" />
@@ -99,6 +104,7 @@
     <Content Include="app\images\theGordianGroup_logo.png" />
     <Content Include="app\images\user.jpg" />
     <Content Include="app\views\login.html" />
+    <Content Include="bin\www" />
     <Content Include="package.json" />
     <Content Include="app\index.html" />
     <Content Include="README.md" />
@@ -112,6 +118,8 @@
     <Folder Include="app\fonts\" />
     <Folder Include="app\images\" />
     <Folder Include="app\js\datastructures\" />
+    <Folder Include="app\js\dist\" />
+    <Folder Include="app\js\test\" />
     <Folder Include="app\lib\" />
     <Folder Include="app\" />
     <Folder Include="app\content\images\" />
@@ -121,6 +129,7 @@
     <Folder Include="app\js\services\" />
     <Folder Include="app\views\" />
     <Folder Include="app\js\" />
+    <Folder Include="bin\" />
     <Folder Include="test\" />
     <Folder Include="test\midway\" />
     <Folder Include="test\unit\" />

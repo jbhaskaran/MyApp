@@ -4,6 +4,8 @@ var bodyParser = require('body-parser');
 
 var authenticateRoute = require('./routes/authenticate');
 var indexRoute = require('./routes/index');
+var movieRoute = require('./routes/movie.js');
+var productRoute = require('./routes/product.js');
 
 var app = express();
 //var router = express.Router();
@@ -18,6 +20,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 //});
 app.use('/', indexRoute);
 app.use('/authenticate', authenticateRoute);
+app.use('/movie', movieRoute);
+app.use('/product', productRoute);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
